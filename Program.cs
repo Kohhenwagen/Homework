@@ -10,9 +10,11 @@ Console.Write("Введите второче число:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 > num2)
 {
+    Console.Write("max = ");
     Console.Write(num1);
 }
 else 
 {
+    Console.Write("max = ");
     Console.Write(num2);
 }
